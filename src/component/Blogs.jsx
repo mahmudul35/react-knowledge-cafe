@@ -7,7 +7,7 @@ const Blogs = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-  return <div>{blogs.length}</div>;
+  return <div></div>;
 };
 
 export default Blogs;
