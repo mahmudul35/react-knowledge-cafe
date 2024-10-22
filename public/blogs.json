@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "cover_pic": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "title": "The Great Adventure",
+    "author_name": "John Doe",
+    "author_img": "https://images.unsplash.com/photo-1601592021730-d3e65e68d8b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3NzB8MHwxfGFsbHwxfHx8fHx8fHwxNjQyMjE0MTk3&ixlib=rb-1.2.1&q=80&w=400",
+    "posted_date": "2024-10-01",
+    "reading_time": 15,
+    "hashtags": ["#Adventure", "#Travel", "#Fiction"]
+  },
+  {
+    "ID": 2,
+    "cover_pic": "https://images.unsplash.com/photo-1593642632730-7b43878e84a6",
+    "title": "Understanding React",
+    "author_name": "Jane Smith",
+    "author_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3NzB8MHwxfGFsbHw0fHx8fHx8fHwxNjQyMjE0MjA0&ixlib=rb-1.2.1&q=80&w=400",
+    "posted_date": "2024-10-05",
+    "reading_time": 20,
+    "hashtags": ["#React", "#JavaScript", "#WebDevelopment"]
+  },
+  {
+    "ID": 3,
+    "cover_pic": "https://images.unsplash.com/photo-1517436079-0b8e24e4d3f7",
+    "title": "The Mystery of JavaScript",
+    "author_name": "Alice Johnson",
+    "author_img": "https://images.unsplash.com/photo-1551836006-5b007d37a847?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3NzB8MHwxfGFsbHw2fHx8fHx8fHwxNjQyMjE0MjEy&ixlib=rb-1.2.1&q=80&w=400",
+    "posted_date": "2024-10-10",
+    "reading_time": 12,
+    "hashtags": ["#JavaScript", "#Programming", "#Coding"]
+  },
+  {
+    "ID": 4,
+    "cover_pic": "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
+    "title": "Exploring CSS Grid",
+    "author_name": "Bob Brown",
+    "author_img": "https://images.unsplash.com/photo-1517499082254-7debe4f1a2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3NzB8MHwxfGFsbHw3fHx8fHx8fHwxNjQyMjE0MjI0&ixlib=rb-1.2.1&q=80&w=400",
+    "posted_date": "2024-10-15",
+    "reading_time": 18,
+    "hashtags": ["#CSS", "#WebDesign", "#Frontend"]
+  },
+  {
+    "ID": 5,
+    "cover_pic": "https://images.unsplash.com/photo-1559027153-63c59d82c879",
+    "title": "Mastering Python",
+    "author_name": "Charlie Davis",
+    "author_img": "https://images.unsplash.com/photo-1560570436-c5cf66f5b3e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3NzB8MHwxfGFsbHwxMHx8fHx8fHx8fHwxNjQyMjE0MjM0&ixlib=rb-1.2.1&q=80&w=400",
+    "posted_date": "2024-10-20",
+    "reading_time": 22,
+    "hashtags": ["#Python", "#Programming", "#DataScience"]
+  }
+]

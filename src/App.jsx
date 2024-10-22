@@ -1,9 +1,12 @@
 import "./App.css";
+import Blogs from "./component/Blogs";
+import Header from "./component/Header";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-red-500">Hellp0</h1>
+      <Header />
+      <Blogs />
     </>
   );
 }
