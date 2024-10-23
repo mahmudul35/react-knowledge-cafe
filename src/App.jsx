@@ -13,8 +13,11 @@ function App() {
     setBookmarks(newBookmarks);
   };
 
-  const handleTime = (reading_time) => {
+  const handleTime = (ID, reading_time) => {
     setTime(time + reading_time);
+    //remove bookmarked blog
+    const newBookmarks = bookmarks.filter((bookmark) => bookmark.ID !== ID);
+    setBookmarks(newBookmarks);
   };
   return (
     <div className="max-w-7xl mx-auto p-6">
