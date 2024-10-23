@@ -24,7 +24,7 @@ const Blog = ({ blog, handleBookmark }) => {
         <div className="flex  items-center">
           <span>{reading_time} min read</span>
           <button
-            onClick={handleBookmark}
+            onClick={() => handleBookmark(blog)}
             className="ml-2 text-red-500 text-2xl"
           >
             <IoBookmarksOutline />
