@@ -1,6 +1,6 @@
 import React from "react";
 import { IoBookmarksOutline } from "react-icons/io5";
-const Blog = ({ blog, handleBookmark }) => {
+const Blog = ({ blog, handleBookmark, handleTime }) => {
   const {
     title,
     cover_pic,
@@ -39,6 +39,12 @@ const Blog = ({ blog, handleBookmark }) => {
           </span>
         ))}
       </div>
+      <button
+        onClick={() => handleTime(reading_time)}
+        className="underline mt-4 text-blue-600"
+      >
+        mark as read
+      </button>
     </div>
   );
 };
